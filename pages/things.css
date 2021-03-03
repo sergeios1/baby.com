@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Akaya Kanadaka';
+    font-size: 20px;
+}
+body {
+    background-color: #F6FFEE; 
+ }
+.navbar{
+    background-color: #DD9BCF; 
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+}
+
+.navbar-nav{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo .nav-link{
+    display: block;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none; 
+    color: white; 
+    transition: all 0.2; 
+} 
+.we { 
+    display: none; 
+    position: fixed; 
+    bottom: 12px; 
+    padding-left: 20px; 
+    color: white; 
+    text-decoration: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo:hover .we{
+    display: block;
+    cursor: pointer;
+}
+
+.logo:hover .nav-link{
+    visibility: hidden;
+    height: 100px;
+    cursor: pointer;
+}
+
+.flexion {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 80%;
+    background-color:  #e75874;
+    border-radius: 50px;
+    color:  #322514;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #2d3436;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #636e72;
+    border-radius: 8px;
+  }
+
+
+
+

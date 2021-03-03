@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: 'Akaya Kanadaka';
+    font-size: 20px;
+}
+body {
+    background-color: #F6FFEE; 
+ }
+.navbar{
+    background-color: #DD9BCF; 
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+}
+
+.navbar-nav{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo .nav-link{
+    display: block;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2;
+}
+
+.we {
+    display: none;
+    position: fixed;
+    bottom: 12px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo:hover .we{
+    display: block;
+    cursor: pointer;
+}
+
+.logo:hover .nav-link{
+    visibility: hidden;
+    height: 100px;
+    cursor: pointer;
+}
+
+.wrapper {
+    max-height: 800px;
+    margin: 15% auto auto auto;
+    width: 75%;
+    height: 200px;
+    background-color: #F48882;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.text{
+    color: white;
+    max-width: 100%;
+    margin: 30px 20px 0px 20px;
+}
+
+#quoteText {
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+#quoteAuthor{
+    float: right;
+    position: relative;
+    bottom: -120px;
+    margin: 2px 10px;
+}
+
+@media (max-width: 800px){
+    .wrapper {
+        margin: 40% auto auto auto;
+    }
+}
